@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    background-color: #6D9DC5;
+}
+
+#sideBar {
+    height: 100%;
+}
+.for-mobile {
+    background-color: #AEECEF;
+    border-radius: 15px;
+    border: 2px solid #001242;
+    padding: 10px;
+}
+
+
+@media(min-width:992px) {
+    .com-dis {
+        display: flex;
+    }
+    #Skill-Set, #Hobbies {
+        width: 40%;
+    }
+    #Education {
+        width: 70%;
+    }
+    #About, #Education, #Hobbies {
+        margin-right: 24px;
+    }
+    #Contact {
+        margin-left: 24px;
+        width: 50%;
+    }
+}
+
+@media(max-width:991px) {
+    #Skill-Set, #Hobbies, #Contact {
+        width: 100%;
+    }
+    
+    #Education {
+        width: 100%;
+    }
+}
