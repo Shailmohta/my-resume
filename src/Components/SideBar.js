@@ -3,7 +3,7 @@ import React from 'react'
 function SideBar() {
   return (
     <div>
-        <nav className="navbar bg-dark navbar-expand-lg border-body p-3" data-bs-theme="dark">
+        <nav className="navbar bg-dark navbar-expand-lg border-body p-3" data-bs-theme="dark" id='navBar'>
             <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
             <span className="navbar-toggler-icon"></span>
             </button>
@@ -15,7 +15,7 @@ function SideBar() {
                 <div className="navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mx-3 me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="/">Home</a>
+                    <a className="nav-link" aria-current="page" href="#navBar">Home</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#About">About Me</a>
