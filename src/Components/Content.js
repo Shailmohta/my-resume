@@ -64,7 +64,6 @@ function Content() {
               <li>Reading</li>
               <li>Trekking</li>
               <li>Gaming</li>
-              <li>Creo and AutoCad</li>
             </ul>
         </div>
         <div className="container mt-4 for-mobile" id="Courses">
